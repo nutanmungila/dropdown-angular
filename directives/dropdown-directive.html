@@ -1,0 +1,8 @@
+<div ng-click="onClickDD()">
+  {{dditem}}
+  <div ng-if="showPopup">
+    <div ng-repeat="item in dropdownListItems">
+      <div ng-click="onClickItem(item)">{{item}}</div>
+    </div>
+  </div>
+</div>
